@@ -1,0 +1,143 @@
+/* .manav{
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between; */
+    /* background-color: #932bd9; */
+    /* background-color: #271c88fc;
+    box-shadow: #0e000a 1px 4px 6px;
+    margin: 18px;
+    border-radius: 10px;
+}
+.logos { 
+    display: flex;
+    margin-top: 7px;
+    margin-left: 60px;
+    padding-left:15px ;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo{
+    border: solid 2.5px #FFF;
+    border-radius: 15px; */
+    /* background-color: rgb(110, 21, 133); */
+    /* background-color: rgba(251, 3, 251, 0.568);
+    padding: 5px 14px; 
+    padding-top: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 44px; */
+    /* box-shadow: black 1px ; */
+    /* text-decoration: none;
+    color: #fff;
+}
+.momail { 
+    padding-top: 21px;
+    color:rgb(245, 192, 238);
+    text-decoration: none;
+    padding-left: 5px;
+    font-size: 18px;
+ }
+.manav,ul{
+    display: flex;
+    margin-top:auto ;
+    padding-right: 32px;
+    list-style: none;
+} */
+/* .manav,ul li a{
+    text-decoration: none;
+    color: #FFF; */
+    /* padding-right: 50px; */
+    /* padding: 10px 14px;
+} */
+/* ul li a:hover{
+    
+    background-color: rgba(1, 17, 58, 0.264);
+    padding: 10px auto;
+}
+@media  screen  {
+    
+} */
+::after,
+::before{
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+html{
+    font-size: 60%;
+}
+body{
+    font-size: 1.6rem;
+    background-color: aliceblue;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(224, 232, 240);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8vh;
+    background-image: linear-gradient(to right, rgba(32, 1, 32, 0.784) 30% 4%, rgb(190, 6, 190)70% 100%) ;
+    box-shadow: #27011ce8 1px 4px 6px;
+}
+.nav__brand{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:3rem;
+}
+
+ a:hover{
+    color: rgb(244, 226, 241);
+}
+.nav__toggler div{
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: rgb(252, 251, 251);
+    transition: 0.4s ease-in;
+}
+.nav__toggler{
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .nav__toggler{
+        display: block;
+    }
+    .nav__menu{
+        position: fixed;
+        top: 6.3vh;
+        right: 0;
+        width: 50%;
+        height: 93vh;
+        background-image: linear-gradient(to right, rgba(32, 1, 32, 0.716) 3% 4%, rgba(190, 6, 190, 0.781)60% 100%) ;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+    }
+}
+
+/* nav actove class */
+.nav__active{
+    transform: translateX(0);
+}
+
+/* togglee icon animation */
+.toggle .line1{
+    transform: rotate(-45deg) translate(-4px, 4px) ;
+}
+.toggle .line2{
+    opacity:0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-4px, -5px) ;
+}
